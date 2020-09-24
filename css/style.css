@@ -1,0 +1,430 @@
+/* author:Firoz Ahmad
+mail:firozahmad6033@gmail.com
+website:............... */
+
+/* 
+===index===
+1.header
+2.Stratis
+3.course
+4.Testimonial
+5.footer 
+*/
+
+/* global css */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.img-center{
+    display: block;
+    margin: 0 auto;
+}
+.no-padding{
+    padding: 0px;
+}
+.cstm-btn-one{
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    color: #612316;
+    border-radius: 30px;
+    padding: 6px 16px;
+    border: none;
+    margin-top: 70px;
+    margin-bottom: 140px;
+
+
+}
+.cstm-btn-two{
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 15px;
+    display: block;
+    
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    margin-top: 36px;
+
+}
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+h6{
+
+}
+p{
+
+}
+/* theme css  */
+header{
+    background-color: #F0FFF0;
+    width: 100%;
+    float: left;
+    
+
+} 
+header img{
+    width: 200px;
+    height: 60px;
+}
+.nav-link{
+    color: black!important;
+    margin: 0px 15px;
+    transition: 0.5s ease-in-out;
+}
+.nav-link:hover{
+    color:white;
+    background-color: #21B573;
+    border-radius: 20px;
+    padding: 6px 20px;
+}
+.banner-contain{
+    margin: 60px 0px;
+}
+.banner-contain h6{
+    color:#FD511A;
+    font-size: 13px;
+}
+.banner-contain h2{
+    font-weight: bold;
+}
+.banner-contain p{
+    margin: 20px 0px;
+    font-weight: 200;
+}
+
+.banner-contain span{
+    color: #21B573;
+}
+.btn-banner{
+    color: white;
+    background-color: #21B573;
+    border-radius: 33px;
+    padding: 6px 24px;
+    margin-top: 25px;
+}
+.banner-img{
+    width: 85%;
+    padding-bottom: 40px;
+}
+.banner-img img{
+    width: 100%;
+}
+
+
+.book{
+    width: 100%;
+    float: left;
+}
+.book-one{
+    width: 270px;
+    height: 270px;
+    background-color: #F8FFFB ;
+    border-radius: 5px;
+}
+.book-two{
+    width: 270px;
+    height: 270px;
+    background-color:white;
+    border-radius: 5px;
+}
+.book-img{
+    width: 66px;
+    height: 85px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.book-one img{
+    width: 100%;
+}
+.book-contain{
+    text-align: center;
+    margin-top: 78px;
+
+}
+.book-contain h4{
+    font-size: 22px;
+    
+    font-weight: 500;
+    
+}
+.book-contain h6{
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+.course{
+    width: 100%;
+    float: left;
+    
+
+}
+.course h2{
+    text-align: center;
+}
+.card-one{
+   
+}
+.card{
+    margin-top: 20px;
+    background-color: #fff!important;
+    border: none;
+    background-color: white;
+    padding: 5px;
+    border-radius: 18px;
+    
+    
+}
+.card-img{
+    width: 331px;
+    height: 234px;
+    margin:0 auto;
+}
+.card-img img{
+    margin-top: 15px;
+}
+.card-body{
+    margin-top: 15px;
+    
+}
+.card-body h5{
+    color:#413960;
+    font-size: 24px;
+   
+}
+.card-body p{
+    color:#585859;
+    font-size: 16px;
+    font-weight: 400;
+   
+}
+.btn-course{
+    background: #21B573;
+    border-radius: 33px; 
+    color: white;
+    padding: 5px 23px;
+    margin: 15px 0px;
+    text-decoration: none;
+}
+.course-left{
+   
+    margin-top: 50px;
+   
+    
+}
+.course-right{
+    margin-top: 50px;
+    
+}
+.other{
+    width: 100%;
+    float: left;
+    margin-bottom: 45px;
+    
+}
+.other-title{
+    margin: 0 auto;
+    text-align: center;
+}
+.other-title h2{
+    font-size: 36px;
+    font-weight: 700;
+
+}
+.other-img{
+    width:100px;
+    height: 100px;
+    margin: 30px 0px;
+
+}
+.other-img img{
+    width: 80%;
+}
+.other p{
+    margin-top: 70px;
+}
+footer{
+    width: 100%;
+    float: left;
+    background-color: #282531;
+    color: white;
+}
+.foot{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:576px){
+    .book-one {
+        margin: 0 auto;
+        margin-top: 25px;
+        
+    }
+    .nav-link:hover{
+        display: inline;
+        
+    }
+    .banner-contain{
+        text-align: center;
+    }
+    .book-two{
+        
+        margin: 0 auto;
+    }
+    .book-one {
+        margin-bottom: 20px;
+    }
+    .card-body {
+        margin-top: 15px;
+        margin: 0 auto;
+    }
+    .other-img{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    .other{
+        margin: 0px;
+    }
+
+
+}
+@media(max-width:768px) and (min-width:577px){
+    .book-one {
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-right: 20px;
+        width:245px;
+        
+    }
+    .nav-link:hover{
+        display: inline;
+        
+    }
+    .banner-contain{
+        text-align: center;
+    }
+    .book-two{
+          margin-left: 20px;
+            margin-top: 26px;
+        width:245px;
+
+    }
+   
+    .card-body {
+        margin-top: 15px;
+        margin: 0 auto;
+    }
+    .other-img{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    .other{
+        margin: 0px;
+    }
+    .four-book{
+        margin-left: 20px;
+    }
+
+}
+@media(max-width:992px) and (min-width:769px){
+   
+    .nav-link:hover{
+        display: inline;
+        
+    }
+    .banner-img {
+        width: 99%;
+        
+        margin-top: 50px;
+    }
+    .banner-contain{
+        text-align: center;
+    }
+    .book-two {
+       width: 175px;
+        height: 250px;
+        margin: 5px;
+        }
+        .book-one{
+            width: 175px;
+        height: 250px;
+        margin: 5px;
+
+        }   
+
+        .card-img {
+            width: 201px;
+            height: 127px;}
+
+            .other-img img {
+                width: 100%;
+                margin-top: 40px;
+            }
+    
+}   
+
+@media(max-width:1200px) and (min-width:993px){
+   
+    .nav-link:hover{
+        display: inline;
+        
+    }
+    .banner-img {
+        width: 99%;
+        
+        margin-top: 50px;
+    }
+    .banner-contain{
+        text-align: center;
+    }
+    .book-two {
+       width: 175px;
+        height: 250px;
+        margin: 5px;
+        }
+        .book-one{
+            width: 175px;
+        height: 250px;
+        margin: 5px;
+
+        }   
+
+        .card-img {
+            width: 201px;
+            height: 127px;}
+
+            .other-img img {
+                width: 100%;
+                margin-top: 40px;
+            }
+    
+}   
